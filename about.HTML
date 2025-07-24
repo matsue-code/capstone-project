@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            color: darkmagenta;
+        }
+    
+        .navigationbar {
+            background-color: aquamarine;
+            overflow: hidden;
+            font-family: inherit;
+            font-size: medium;
+            color: cadetblue;
+            text-align: center;
+        }
+    
+        .navigationbar a {
+            background-color: darksalmon;
+            color: black;
+            padding: 20px 15px;
+            border: 1px;
+            text-align: center;
+            float: inline-start;
+            text-decoration: none;
+        }
+    
+        .navigationbar a:hover {
+            color: deeppink;
+            background-color: lightblue;
+        }
+    
+        .navigationbar a :active {
+            background-color: beige;
+            color: black;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <div class="navigationbar">
+        <a href="index.HTML" class="active">HOME</a>
+        <a href="about.HTML">ABOUT US</a>
+        <a href="types.HTML">TYPES OF CARS AVAILABLE</a>
+        <a href="price.HTML">CAR PRICE</a>
+    </div>
     <p>this is a about page</p>
 </body>
 </html>
